@@ -96,45 +96,45 @@ with open("bilibili_comment.txt", "w", encoding="utf-8") as fp:
 
 - 1、首先找到任一视频打开F12
 
-  ![F12打开时候的样子](../bilibili_comment_crawl/F12打开时候的样子.png)
+  ![F12打开时候的样子](./F12打开时候的样子.png)
 
   
 
 - 2、因为比较杂乱，点击该位置将这些资源包删除
 
-  ![点击此处删除](../bilibili_comment_crawl/点击此处删除.png)
+  ![点击此处删除](./点击此处删除.png)
 
   
 
 - 3、拖动滚轮向下滑动直到出现一个这样的资源包即可
 
-  ![评论资源包](../bilibili_comment_crawl/评论资源包.png)
+  ![评论资源包](./评论资源包.png)
 
   
 
 - 4、将其点开，就能找到对应视频的oid码了
 
-  ![oid码所在位置](../bilibili_comment_crawl/oid码所在位置.png)
+  ![oid码所在位置](./oid码所在位置.png)
 
   
 
 - 5、评论资源所在位置，点击方框处
 
-  ![响应](../bilibili_comment_crawl/响应.png)
+  ![响应](./响应.png)
 
 
 
 - 6、看到其中的内容然后Crtl-A + Crtl-C，全选复制，然后在网上随便搜一个在线JSON解释器粘贴进去即可
 
-  ![json解析后的样子](../bilibili_comment_crawl/json解析后的样子.png)
+  ![json解析后的样子](./json解析后的样子.png)
 
 - 7、然后点击那些（➖减号）啥的符号慢慢整理可以看到一个这样的列表
 
-  ![整理后的json解析文件](../bilibili_comment_crawl/整理后的json解析文件.png)
+  ![整理后的json解析文件](./整理后的json解析文件.png)
 
 - 8、最后所需要的评论就在
 
-  ![comment所在的位置](../bilibili_comment_crawl/comment所在的位置.png)
+  ![comment所在的位置](./comment所在的位置.png)
 
 - 9、对应的python字典获取格式就是：
 
