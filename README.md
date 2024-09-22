@@ -16,7 +16,7 @@
 
 ### 该项目只适用学习其他任何用途均不可使用！！！
 
-# <a id="para2"/>url参数解析&#x1F37A;&#x1F37A;&#x1F37A;
+# <a id="para2"/>url参数解析（2024.9.22当前api还能使用，请大家放心食用）&#x1F37A;&#x1F37A;&#x1F37A;
 
 expample: https://api.bilibili.com/x/v2/reply/main?csrf=40a227fcf12c380d7d3c81af2cd8c5e8&mode=3&next={}&oid=860478472&plat=1&type=1
 
